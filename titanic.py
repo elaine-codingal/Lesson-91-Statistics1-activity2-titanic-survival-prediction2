@@ -5,6 +5,8 @@ import statistics as stats
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Set display options to show all columns
+pd.set_option('display.max_columns', None)
 #Load the dataset
 data=pd.read_csv('Titanic_Dataset.csv')
 
